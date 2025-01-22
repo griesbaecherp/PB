@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="CreBoVodService" targetNamespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" targetNamespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" version="1.0" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+  
+  <xs:complexType name="createDebateResponse">
+    <xs:complexContent>
+      <xs:extension base="tns:creBoResponse">
+        <xs:sequence>
+          <xs:element name="debateExternalId" type="xs:long"/>
+          <xs:element minOccurs="0" name="debateInitialOpenTimeCode" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="creBoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorDetails" type="xs:string"/>
+      <xs:element minOccurs="0" name="status" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updateDebateTitlesResponse">
+    <xs:complexContent>
+      <xs:extension base="tns:creBoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="debateInitialOpenTimeCode" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="createInterventionResponse">
+    <xs:complexContent>
+      <xs:extension base="tns:creBoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="interventionInitialOpenTimeCode" type="xs:dateTime"/>
+          <xs:element name="vodInfoExternalId" type="xs:long"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="updateInterventionResponse">
+    <xs:complexContent>
+      <xs:extension base="tns:creBoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="initialOpenTimeCode" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="updateGlobalResponse">
+    <xs:complexContent>
+      <xs:extension base="tns:creBoResponse">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="createDebate">
+    <wsdl:part name="openTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="closeTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="type" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="location" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="indexOJ" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="titleFr" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleBg" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleCs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDe" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEn" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleFi" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHu" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleIt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleMt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleNl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleRo" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSk" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleGa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHr" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateInterventionByIdResponse">
+    <wsdl:part name="return" type="tns:updateInterventionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateDebateTitlesResponse">
+    <wsdl:part name="return" type="tns:updateDebateTitlesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateEventsByIdInCreBoService">
+    <wsdl:part name="externalID" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="newStartTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="newEndTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="newDeliverable" type="xsd:boolean">
+    </wsdl:part>
+    <wsdl:part name="isDebate" type="xsd:boolean">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createInterventionResponse">
+    <wsdl:part name="return" type="tns:createInterventionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createInterventionWithDebateIdResponse">
+    <wsdl:part name="return" type="tns:createInterventionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createIntervention">
+    <wsdl:part name="openTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="closeTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="location" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="speakerPersId" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="interventionLang" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="role" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="debateInitialOpenTC" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="isAliveCreboService">
+  </wsdl:message>
+  <wsdl:message name="createSubDebateResponse">
+    <wsdl:part name="return" type="tns:createDebateResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createDebateResponse">
+    <wsdl:part name="return" type="tns:createDebateResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateGlobalResponse">
+    <wsdl:part name="return" type="tns:updateGlobalResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createSubDebate">
+    <wsdl:part name="openTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="closeTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="type" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="location" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="indexOJ" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="parentDebateExtId" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="titleFr" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleBg" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleCs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDe" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEn" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleFi" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHu" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleIt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleMt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleNl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleRo" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSk" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleGa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHr" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateEventsByIdInCreBoServiceResponse">
+    <wsdl:part name="return" type="tns:creBoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateInterventionResponse">
+    <wsdl:part name="return" type="tns:updateInterventionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateDebateTitlesByIdResponse">
+    <wsdl:part name="return" type="tns:updateDebateTitlesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateDebateTitlesById">
+    <wsdl:part name="externalID" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="titleFr" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleBg" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleCs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDe" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEn" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleFi" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHu" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleIt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleMt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleNl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleRo" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSk" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleGa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHr" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateDebateTitles">
+    <wsdl:part name="debateInitialOpenTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleFr" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleBg" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleCs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleDe" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEn" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEs" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleEt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleFi" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHu" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleIt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleLv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleMt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleNl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titlePt" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleRo" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSk" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSl" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleSv" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleGa" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="titleHr" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createInterventionWithDebateId">
+    <wsdl:part name="openTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="closeTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="location" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="speakerPersId" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="interventionLang" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="role" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="externalDebateId" type="xsd:long">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="isAliveCreboServiceResponse">
+    <wsdl:part name="return" type="tns:creBoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateIntervention">
+    <wsdl:part name="initialOpenTimeCode" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="speakerPersId" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="interventionLang" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="role" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateGlobal">
+    <wsdl:part name="dataStartTC" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="dataEndTC" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="xmlData" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateInterventionById">
+    <wsdl:part name="externalID" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="speakerPersId" type="xsd:long">
+    </wsdl:part>
+    <wsdl:part name="interventionLang" type="xsd:string">
+    </wsdl:part>
+    <wsdl:part name="role" type="xsd:string">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="CreBoVodServiceEndpoint">
+    <wsdl:operation name="createSubDebate">
+      <wsdl:input message="tns:createSubDebate" name="createSubDebate">
+    </wsdl:input>
+      <wsdl:output message="tns:createSubDebateResponse" name="createSubDebateResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDebate">
+      <wsdl:input message="tns:createDebate" name="createDebate">
+    </wsdl:input>
+      <wsdl:output message="tns:createDebateResponse" name="createDebateResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDebateTitlesById">
+      <wsdl:input message="tns:updateDebateTitlesById" name="updateDebateTitlesById">
+    </wsdl:input>
+      <wsdl:output message="tns:updateDebateTitlesByIdResponse" name="updateDebateTitlesByIdResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDebateTitles">
+      <wsdl:input message="tns:updateDebateTitles" name="updateDebateTitles">
+    </wsdl:input>
+      <wsdl:output message="tns:updateDebateTitlesResponse" name="updateDebateTitlesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateEventsByIdInCreBoService">
+      <wsdl:input message="tns:updateEventsByIdInCreBoService" name="updateEventsByIdInCreBoService">
+    </wsdl:input>
+      <wsdl:output message="tns:updateEventsByIdInCreBoServiceResponse" name="updateEventsByIdInCreBoServiceResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createInterventionWithDebateId">
+      <wsdl:input message="tns:createInterventionWithDebateId" name="createInterventionWithDebateId">
+    </wsdl:input>
+      <wsdl:output message="tns:createInterventionWithDebateIdResponse" name="createInterventionWithDebateIdResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateIntervention">
+      <wsdl:input message="tns:updateIntervention" name="updateIntervention">
+    </wsdl:input>
+      <wsdl:output message="tns:updateInterventionResponse" name="updateInterventionResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createIntervention">
+      <wsdl:input message="tns:createIntervention" name="createIntervention">
+    </wsdl:input>
+      <wsdl:output message="tns:createInterventionResponse" name="createInterventionResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isAliveCreboService">
+      <wsdl:input message="tns:isAliveCreboService" name="isAliveCreboService">
+    </wsdl:input>
+      <wsdl:output message="tns:isAliveCreboServiceResponse" name="isAliveCreboServiceResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateGlobal">
+      <wsdl:input message="tns:updateGlobal" name="updateGlobal">
+    </wsdl:input>
+      <wsdl:output message="tns:updateGlobalResponse" name="updateGlobalResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateInterventionById">
+      <wsdl:input message="tns:updateInterventionById" name="updateInterventionById">
+    </wsdl:input>
+      <wsdl:output message="tns:updateInterventionByIdResponse" name="updateInterventionByIdResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CreBoVodServiceSoapBinding" type="tns:CreBoVodServiceEndpoint">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="createSubDebate">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="createSubDebate">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createSubDebateResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createDebate">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="createDebate">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createDebateResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDebateTitlesById">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="updateDebateTitlesById">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateDebateTitlesByIdResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDebateTitles">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="updateDebateTitles">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateDebateTitlesResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateEventsByIdInCreBoService">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="updateEventsByIdInCreBoService">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateEventsByIdInCreBoServiceResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createInterventionWithDebateId">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="createInterventionWithDebateId">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createInterventionWithDebateIdResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateIntervention">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="updateIntervention">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateInterventionResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createIntervention">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="createIntervention">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createInterventionResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isAliveCreboService">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="isAliveCreboService">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="isAliveCreboServiceResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateGlobal">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="updateGlobal">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateGlobalResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateInterventionById">
+      <soap:operation soapAction=" " style="rpc"/>
+      <wsdl:input name="updateInterventionById">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateInterventionByIdResponse">
+        <soap:body namespace="urn:ec.ep.itec.des.evolution.evocom.metagate.transformer.service.crebo" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CreBoVodService">
+    <wsdl:port binding="tns:CreBoVodServiceSoapBinding" name="MetaGateServicePort">
+      <soap:address location="http://www.metagatidv.ep.parl.union.eu/mtg-transformer/soap/CreBoVodService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

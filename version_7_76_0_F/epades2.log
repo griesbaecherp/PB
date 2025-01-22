@@ -1,0 +1,666 @@
+ document array 83648756 ( 83648480) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/15 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE LUNDI I - 15/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE LUND I 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:37:00 
+ document array 83647868 ( 83647592) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/15 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE LUNDI II - 15/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE LUN II 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:39:00 
+ document array 83648460 ( 83648184) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/16 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE MARDI I - 16/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE MARD I 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:39:00 
+ document array 83648460 ( 83648184) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/16 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE MARDI II - 16/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE MAR II 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:39:00 
+ document array 83648460 ( 83648184) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/17 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE MERCREDI I - 17/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE MERC I 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:37:00 
+ document array 83650828 ( 83650552) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/17 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE MERCREDI II - 17/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE MER II 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:39:00 
+ document array 83650236 ( 83649960) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/18 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE JEUDI I - 18/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE JEUD I 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:37:00 
+ document array 83647868 ( 83647592) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/18 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE JEUDI II - 18/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE JEU II 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:39:00 
+ document array 83650828 ( 83650552) 
+ field array  5337124 ( 5337080) 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[0](5337124) code_demandeur DG1 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[1](5337168) copies DA=0,DE=0,EL=0,EN=0,ES=0,FI=0,FR=1,IT=0,NL=0,PT=0,SV=0,ET=0,LV=0,LT=0,PL=0,HU=0,SL=0,SK=0,MT=0,CS=0 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[2](5337212) lieu_session SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[3](5337256) obser_edition DUPLICATION SÉANCE PLÉNIÈRE STRASBOURG 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[4](5337300) responsable_doc GASPER RIBIC 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[5](5337344) tel_responsable 22542 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[6](5337388) type_document CR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[7](5337432) demande_distribution YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[8](5337476) destinataire MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[9](5337520) obser_distribution DISTRIBUTION MILES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[10](5337564) ref_doc_demandeur C.R.E. 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[11](5337608) code_session  
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[12](5337652) a_dupliquer YES 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[13](5337696) lieu_edition STR 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[14](5337740) date_session 2017/05/22 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[15](5337784) titre_abr CRE ANNEXE - 22/05/2017 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[16](5337828) num_doc_d CRE ANNEXE 
+ Encoding =UCS2_TO_UTF8 
+ UCS2_TO_UTF8
+ setFieldValue 5337168 (5337124) 
+ setFieldValue array[17](5337872) deadline_production 2017/05/18-19:39:00 

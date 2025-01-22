@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "cre2.pbt";
+@end;
+DefaultTarget "cre2.pbt";
+DefaultRemoteTarget "cre2.pbt";
